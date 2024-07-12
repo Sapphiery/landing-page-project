@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+#hero-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#hero, .footer {
+    background-color: #1f2937;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+}
+
+#quote {
+    background-color: #e5e7eb;
+}
+
+#call-to-action, button {
+    background-color: #3882f6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.hero-subtext, .nav-link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
