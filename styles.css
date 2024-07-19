@@ -4,6 +4,19 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+button {
+    flex: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.quadrant {
+    display: flex;
+}
+
 a {
     text-decoration: none;
 }
@@ -15,7 +28,15 @@ a {
 #hero-container {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    max-width: 1200px;
 }
+
+#hero-image {
+    width: 500px;
+    height: auto;
+}
+
 
 #hero, .footer {
     background-color: #1f2937;
@@ -24,10 +45,43 @@ a {
 #hero {
     display: flex;
     justify-content: center;
+    padding: 12px;
+}
+
+.hero-section {
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+
+.hero-block {
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
 }
 
 #quote {
     background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.quote-block {
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    flex: 1;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote-attribution {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 #call-to-action, button {
@@ -35,9 +89,9 @@ a {
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .hero-text {
@@ -54,6 +108,10 @@ a {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.header-links {
+    gap: 18px;
 }
 
 .information-header {
